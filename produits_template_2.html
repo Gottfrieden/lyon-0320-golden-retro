@@ -89,9 +89,9 @@
 
             <div class="tab-container">
             <div class="all-tabs">
-              <button onclick="showTab()" id="buy-tab" class="tab active">Buy it</button>
-              <button onclick="showTab()" id="value-tab" class="tab">Value</button>
-              <button onclick="showTab()" id="info-tab" class="tab">More Info</button>
+              <button onclick="showTab(event, 'buy-tab-content')" id="buy-tab" class="tab active">Buy it</button>
+              <button onclick="showTab(event, 'value-tab-content')" id="value-tab" class="tab">Value</button>
+              <button onclick="showTab(event, 'info-tab-content')" id="info-tab" class="tab">More Info</button>
             </div>
 
             <div id="buy-tab-content" class="tab-content-container visible">
@@ -104,18 +104,18 @@
             </div>
 
             <div id="value-tab-content" class="tab-content-container">
-              <span class="game-info-headings">Loose:</span>
-              <p>21€</p>
-              <span class="game-info-headings">Complet in Box</span>
-              <p>136€</p>
-              <span class="game-info-headings">Mint</span>
-              <p>189€</p>
+              <span class="game-info-headings">Loose:</span> <span>21€</span><br><br>
+              <span class="game-info-headings">Complet in Box:</span> <span>136€</span><br><br>
+              <span class="game-info-headings">Mint:</span> <span>189€</span>
             </div>
 
             <div id="info-tab-content" class="tab-content-container">
-              <span class="game-info-headings">Platform:</span> <p>SNES</p>
-              <span class="game-info-headings">Released in:</span> <p>1991</p>
-              <span class="game-info-headings">Number of players:</span> <p>1</p>
+              <span class="game-info-headings">Publisher:</span> <span>SNES</span><br><br>
+              <span class="game-info-headings">Platform(s):</span> <span>SNES, Game Boy Advance</span><br><br>
+              <span class="game-info-headings">Release:</span> <span>November 21, 1991</span><br><br>
+              <span class="game-info-headings">Producer(s):</span> <span> Shigeru Miyamoto</span><br><br>
+              <span class="game-info-headings">Genre(s)</span> <span>Action-adventure</span><br><br>
+              <span class="game-info-headings">Number of players:</span> <span>1</span>
             </div>
 
         </section>

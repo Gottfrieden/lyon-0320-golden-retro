@@ -56,8 +56,8 @@ main {
 	margin:0 auto;
 	background-color:white;
 	box-shadow:2px 3px 6px lightgrey;
-	border-top-left-radius:15px;
-	border-top-right-radius:15px;
+	border-radius:15px;
+	margin-bottom:50px;
 }
 .game-image-value-description .game-image {
 	position:absolute;
@@ -112,47 +112,59 @@ main {
 .all-tabs {
     display:flex;
 }
+.all-tabs button:nth-child(1) {
+	border-top-left-radius:15px;
+}
+.all-tabs button:nth-child(3) {
+	border-top-right-radius:15px;
+}
 .tab-container {
 	width:100%;
 	position:relative;
 	max-width:900px;
 	margin:0 auto;
-	background-color:white;
-	border-bottom-left-radius:15px;
-	border-bottom-right-radius:15px;
-	box-shadow:2px 7px 6px lightgrey;
+	border-radius:15px;
 }
 .tab {
 	padding:20px;
 	transition:all 0.2s ease-in-out;
 	cursor:pointer;
-	background-color:#efefef;
-	color:black;
-	font-family:Gilroy;
-	text-transform:uppercase;
-	border:1px solid white;
-}
-.tab:hover {
 	background-color:#52ae32;
 	color:white;
+	font-family:Gilroy;
+	font-size:16px;
+	text-transform:uppercase;
+	border:1px solid #efefef;
+}
+.tab:hover {
+	background-color:white;
+	color:#52ae32;
 	border:1px solid transparent;
 }
 .tab.active {
-	background-color:#52ae32;
-	color:white;
+	background-color:white;
+	color:#52ae32;
 	border:1px solid transparent;
 }
 .tab-content-container {
 	padding:20px;
-	background-color:#52ae32;
-	color:white;
-	border-radius:0 0 15px 15px;
+	background-color:white;
+	color:black;
+	border-radius:0 15px 15px 15px;
 	display:none;
+	box-shadow:2px 2px 5px lightgrey;
+}
+.tab-content-container a {
+	color:#52ae32;
+	text-decoration:underline;
 }
 .visible {
 	display:block;
 }
 .tab-content-container span {
+	font-family:roboto;
+}
+.tab-content-container .game-info-headings {
 	font-family:gilroy;
 	font-weight:bold;
 
