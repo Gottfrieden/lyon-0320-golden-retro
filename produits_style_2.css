@@ -169,6 +169,39 @@ main {
 	font-weight:bold;
 
 }
-
+.game-video {
+	background-color:#52ae32;
+	font-family:Gilroy;
+	color:white;
+	text-align:center;
+	padding:50px 0 50px 0;
+}
+.tv-video {
+	width:100%;
+	max-width:900px;
+	min-width:300px;
+	margin-left:25%;
+	position:relative;
+	height:600px;
+}
+.tv-img {
+	width:80%;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translateX(-50%) translateY(-50%);
+	z-index:0;
+}
+.tv-screen {
+	width:600px;
+	position:relative;
+	top:102px;
+	left:85px;
+	height:380px;
+}
+.tv-screen iframe {
+	width:80%;
+	height:100%;
+}
 
 
