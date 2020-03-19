@@ -1,0 +1,162 @@
+body {
+	margin: -12px 0 0 0;
+}
+h1 {
+	font-family: Gilroy, Montserrat;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+p {
+	font-family:roboto;
+}
+main {
+	background-color:#efefef;
+}
+.game-banner {
+	width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-banner h1 {
+	color:white;
+
+}
+#alttp-banner {
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(Images/Jeux/banner/alttp-banner.png);
+}
+.product-game-title {
+	font-size:16px;
+	font-family:roboto;
+	font-weight:normal;
+	padding-left:20px;
+}
+.product-game-title a {
+	color:black;
+	transition:all 0.2s ease-in-out;
+}
+.product-game-title a:hover {
+	color:#52ae32;
+}
+
+.product-game-information {
+	padding:50px 0 50px 0;
+}
+
+.game-image-value-description {
+	width:100%;
+	height:200px;
+	position:relative;
+	max-width:900px;
+	margin:0 auto;
+	background-color:white;
+	box-shadow:2px 3px 6px lightgrey;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+}
+.game-image-value-description .game-image {
+	position:absolute;
+	top:0;
+	left:20px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+	box-shadow:0px 2px 5px grey;
+	max-width:250px;
+}
+.game-image-value-description .game-argus {
+	position:absolute;
+	top:0;
+	left:335px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+	padding:15px;
+	font-family:Gilroy;
+	color:white;
+	font-weight:bold;
+	box-shadow:0px 2px 5px grey;
+}
+.positive-cotation {
+	background-color:#52ae32;
+}
+.negative-cotation {
+	background-color:red;
+}
+.game-image-value-description .description-bloc {
+	position:absolute;
+	right:0;
+	padding:20px;
+	top:0;
+	width:60%;
+	max-width:450px;
+}
+.game-image-value-description h3 {
+	font-family:Gilroy;
+	font-size:16px;
+}
+.game-image-bloc {
+	position:absolute;
+	width:33%;
+	height:100%;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.game-image-bloc.alttp {
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(Images/games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+}
+.all-tabs {
+    display:flex;
+}
+.tab-container {
+	width:100%;
+	position:relative;
+	max-width:900px;
+	margin:0 auto;
+	background-color:white;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+	box-shadow:2px 7px 6px lightgrey;
+}
+.tab {
+	padding:20px;
+	transition:all 0.2s ease-in-out;
+	cursor:pointer;
+	background-color:#efefef;
+	color:black;
+	font-family:Gilroy;
+	text-transform:uppercase;
+	border:1px solid white;
+}
+.tab:hover {
+	background-color:#52ae32;
+	color:white;
+	border:1px solid transparent;
+}
+.tab.active {
+	background-color:#52ae32;
+	color:white;
+	border:1px solid transparent;
+}
+.tab-content-container {
+	padding:20px;
+	background-color:#52ae32;
+	color:white;
+	border-radius:0 0 15px 15px;
+	display:none;
+}
+.visible {
+	display:block;
+}
+.tab-content-container span {
+	font-family:gilroy;
+	font-weight:bold;
+
+}
+
+
+

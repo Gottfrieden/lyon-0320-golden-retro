@@ -8,12 +8,13 @@
   <meta charset="UTF-8">
   <meta name="description" content="Retro Invaders helps you to find your favorite retro games">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link rel="stylesheet" type="text/css" href="produits_style.css">
+  <link rel="stylesheet" type="text/css" href="produits_style_2.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Roboto:300,400,700,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="header_style.css" />
   <link rel="stylesheet" type="text/css" href="footer_style.css" />
+  <script src="js/tab.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
   <link rel='stylesheet' id='thb-self-hosted-1-css' href="gilroy/gilroy.css">
@@ -63,66 +64,61 @@
 
   <main>
         <!--name of the game-->
-        <h1 class="product-game-title"><a href="index.html" title="Home">Home/</a><a href="super-nintendo.html" title="Nintendo-SNES">Nintendo-SNES/</a>Zelda a Link to The Past</h1>
-        <hr>
-        <div class="product-img-and-description">
-          <!--game picture-->
-          <div class="product-img-container">
-            <div class="product-image-cotation-bloc">
-              <img src="Images/games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg" class="game-image" alt="Lnk to the Past">
-              <span class="product-cotation-box cotation-negative">-6%</span>
-            </div>
-          </div>
-          <!--info section (global)-->
-          <div class="product-description-container">
-            <!--game description-->
-            <div class="product-game-description">
+
+        <section class="game-banner" id="alttp-banner">
+          <h1>The Legend of Zelda: A Link To The Past</h1>
+        </section>
+
+        <h2 class="product-game-title">
+          <a href="index.html" title="Home">Home/</a>
+          <a href="super-nintendo.html" title="Nintendo-SNES">Nintendo-SNES/</a>
+          <span>Zelda a Link to The Past</span>
+        </h2>
+
+        <section class="product-game-information">
+        
+          <div class="game-image-value-description">
+            <div class="game-image-bloc alttp"></div>
+
+            <span class="game-argus negative-cotation">-5%</span>
+            <div class="description-bloc">
+              <h3>Description</h3>
               <p>Is the third game in The Legend of Zelda series and was released in 1991 in Japan and 1992 in North America and Europe. A Link to the Past focuses on Link as he journeys to save Hyrule, defeat the dark lord Ganon, and rescue the descendants of the Seven Sages.</p>
             </div>
-            <!--info about platform, year, platform & price-->
-            <div class="product-platform-price-container">
-              <div class="product-platform-years">
-                <h3>Platform: </h3>
-                <p>SNES</p>
-                <h3>Years: </h3>
-                <p>1991</p>
-              </div>
-              <div class="product-cotation-price">
-                <h3>Prices: </h3>
-                <p>39€ (Loose)</p>
-                <p>62€ (In box)</p>
-                <p>255€ (Complet in box)</p>
-                <div class="product-cotation-mobile">
-                  <h3>Cotation: </h3>
-                  <p class="cotation-negativ">-6%</p>
-                </div>
-              </div>
+          </div>
+
+            <div class="tab-container">
+            <div class="all-tabs">
+              <button onclick="showTab()" id="buy-tab" class="tab active">Buy it</button>
+              <button onclick="showTab()" id="value-tab" class="tab">Value</button>
+              <button onclick="showTab()" id="info-tab" class="tab">More Info</button>
             </div>
-          <!--
-            <div class="product-game-ban">
-                <img src="Images/games/sega-genesis/altered-beast-img.jpg">
-              </div>
-          -->
-          </div>
-        </div>
-        <!--Viedo and link section-->
-        <div class="product-video-and-links">
-          <!--video section-->
-          <div class="product-video-container">
-            <h3>Watch a lets play!</h3>
-            <iframe class="product-video" src="https://www.youtube.com/embed/Z6hjG6MCcZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <!--link section-->
-          <div class="product-link-container">
-            <h3>Buy one online:</h3>
-            <label>Loose</label>
-            <a href="https://www.ebay.fr/itm/Zelda-A-Link-To-The-Past-Super-Nintendo-SNES/264660749570?hash=item3d9f028d02:g:D94AAOSwT-NeZW1w">Zelda A Link To The Past Super Nintendo SNES</a>
-            <label>In box</label>
-            <a href="https://www.ebay.fr/itm/The-Legend-of-Zelda-A-Link-to-the-Past-SNES-PAL-Boxed-Retro-Super-Nintendo-Game/303490567777?hash=item46a9728e61:g:8mkAAOSw1UpeSoYF">The Legend of Zelda: A Link to the Past SNES PAL en boîte Rétro Super Nintendo Game</a>
-            <label>Complet in box</label>
-            <a href="https://www.ebay.fr/itm/THE-LEGEND-OF-ZELDA-A-LINK-TO-THE-PAST-SUPER-NINTENDO-SNES-COMPLET-FAH-FR/164101663778?hash=item263538ac22:g:50EAAOSwUHleUnng">THE LEGEND OF ZELDA A LINK TO THE PAST - SUPER NINTENDO SNES - COMPLET FAH FR</a>
-          </div>
-        </div>
+
+            <div id="buy-tab-content" class="tab-content-container visible">
+              <span>Loose</span>
+              <a href="https://www.ebay.fr/itm/Zelda-A-Link-To-The-Past-Super-Nintendo-SNES/264660749570?hash=item3d9f028d02:g:D94AAOSwT-NeZW1w"><p>Zelda A Link To The Past Super Nintendo SNES</p></a>
+              <span>In box</span>
+              <a href="https://www.ebay.fr/itm/The-Legend-of-Zelda-A-Link-to-the-Past-SNES-PAL-Boxed-Retro-Super-Nintendo-Game/303490567777?hash=item46a9728e61:g:8mkAAOSw1UpeSoYF"><p>The Legend of Zelda: A Link to the Past SNES PAL en boîte Rétro Super Nintendo Game</p></a>
+              <span>Complet in box</span>
+              <a href="https://www.ebay.fr/itm/THE-LEGEND-OF-ZELDA-A-LINK-TO-THE-PAST-SUPER-NINTENDO-SNES-COMPLET-FAH-FR/164101663778?hash=item263538ac22:g:50EAAOSwUHleUnng"><p>THE LEGEND OF ZELDA A LINK TO THE PAST - SUPER NINTENDO SNES - COMPLET FAH FR</p></a>
+            </div>
+
+            <div id="value-tab-content" class="tab-content-container">
+              <span class="game-info-headings">Loose:</span>
+              <p>21€</p>
+              <span class="game-info-headings">Complet in Box</span>
+              <p>136€</p>
+              <span class="game-info-headings">Mint</span>
+              <p>189€</p>
+            </div>
+
+            <div id="info-tab-content" class="tab-content-container">
+              <span class="game-info-headings">Platform:</span> <p>SNES</p>
+              <span class="game-info-headings">Released in:</span> <p>1991</p>
+              <span class="game-info-headings">Number of players:</span> <p>1</p>
+            </div>
+
+        </section>
         
       <footer>
         <section class="items">
