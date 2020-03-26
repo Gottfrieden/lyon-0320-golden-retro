@@ -245,33 +245,33 @@ span.release-date {
 	margin-top:50px!important;
 }
 .platform-container.sega-megadrive {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Platforms/mega-drive.png);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(37, 37, 37, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Platforms/mega-drive.png);
 	background-size:cover;
 	background-repeat:no-repeat;
 }
 .platform-container.nes-classic {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Platforms/nes-classic.jpg);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(37, 37, 37, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Platforms/nes-classic.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
 }
 .platform-container.dreamcast {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Platforms/dreamcast.jpg);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(37, 37, 37, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Platforms/dreamcast.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
 }
 .platform-container.nintendo-64 {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Platforms/nintendo-64.png?raw=true);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(37, 37, 37, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Platforms/nintendo-64.png?raw=true);
 	background-size:cover;
 	background-repeat:no-repeat;
 }
 .platform-container.arcade {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Platforms/arcade.jpg);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(37, 37, 37, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Platforms/arcade.jpg);
 	background-size:contain;
 	background-repeat:no-repeat;
 	background-position:center;
 }
 .platform-container.super-nintendo {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Platforms/super-nintendo.png);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(37, 37, 37, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Platforms/super-nintendo.png);
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -348,15 +348,15 @@ button:hover {
 /* RESPONSIVE */
 @media all and (max-width:960px) and (orientation:portrait) {
 	.align-left.super-mario-bg {
-		background-image:url(Images/Jeux/supermariobros.jpg);
+		background-image:url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/supermariobros.jpg);
 		background-size:cover;
 	}
 	.align-left.sonic-bg {
-		background-image:url(Images/Jeux/sonic-bg.jpg);
+		background-image:url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/sonic-bg.jpg?raw=true);
     	background-size: cover;
 	}
 	.align-right.street-fighter-bg {
-		background-image:url(Images/Jeux/street-fighter.jpg);
+		background-image:url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/street-fighter.jpg?raw=true);
 		background-size:cover;
 	}
 	.align-left .game-content-container {

@@ -26,7 +26,6 @@ main {
 }
 .game-banner h1 {
 	color:white;
-	font-size:40px;
 }
 #alttp-banner {
 	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/alttp-banner.png);
@@ -308,5 +307,8 @@ main {
 	}
 	.tv-img {
 		width:100%;
+	}
+	.logo-rs-footer-container article a img {
+		margin: 0 20px!important;
 	}
 }

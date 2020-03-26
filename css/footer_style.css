@@ -44,7 +44,7 @@ a {
     margin: 0 auto;
 }
 .logo-rs-footer-container article a img {
-    margin:0 30px;
+    margin:0 20px;
 }
 .logo-rs-footer-container article {
     display:inline;
@@ -79,6 +79,9 @@ a {
 
     .logo article {
         width: 12%;
+    }
+    .logo-rs-footer-container article a img {
+    margin:0 30px;
     }
 
 }
