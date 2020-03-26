@@ -5,6 +5,7 @@ h1 {
 	font-family: Gilroy, Montserrat;
     font-weight: 900;
     text-transform: uppercase;
+    text-align:center;
 }
 p {
 	font-family:roboto;
@@ -14,7 +15,7 @@ main {
 }
 .game-banner {
 	width: 100%;
-    height: 500px;
+    height: 350px;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -25,46 +26,47 @@ main {
 }
 .game-banner h1 {
 	color:white;
-
+	font-size:40px;
 }
 #alttp-banner {
 	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/alttp-banner.png);
 }
 #aladdin-banner {
-	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/aladdin-banner.jpg?raw=true);
 }
 #altered-beast-banner {
-	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/altered-beast-banner.jpg);
 }
 #kirby-dreamland-banner {
-	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/kirby-dreamland-banner.jpg);
 }
 #lion-king-banner {
-	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/lion-king-banner.jpg);
 }
 #majora-mask-banner {
-	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/majora-mask-banner.jpg);
 }
 #metal-slug-banner {
-	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/metal-slug-banner.jpg);
 }
 #ocarina-of-time-banner {
-	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/ocarina-of-time-banner.png);
 }
 #sonic-the-hedgehog-2-banner {
-	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/sonic-the-hedgehog-2-banner.jpg);
 }
-#stree-fighter-2-banner {
-	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+#street-fighter-2-banner {
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/street-fighter-2-banner.jpg);
 }
 #super-mario-64-banner {
-	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/super-mario-64-banner.jpg);
 }
 #super-mario-bros-banner {
-	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/super-mario-bros-banner.jpg);
+	background-position:bottom;
 }
 #virtual-tennis-banner {
-	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/virtual-tennis-banner.jpg);
 }
 .product-game-title {
 	font-size:16px;
@@ -75,6 +77,7 @@ main {
 .product-game-title a {
 	color:black;
 	transition:all 0.2s ease-in-out;
+	font-weight:bold;
 }
 .product-game-title a:hover {
 	color:#52ae32;
@@ -86,7 +89,7 @@ main {
 
 .game-image-value-description {
 	width:100%;
-	height:200px;
+	height:230px;
 	position:relative;
 	max-width:900px;
 	margin:0 auto;
@@ -145,47 +148,49 @@ main {
 	width:33%;
 	height:100%;
 	background-position:center;
-	background-size:cover;
+	background-size:contain;
+	background-color:black;
 	background-repeat:no-repeat;
+	border-radius:15px 0 0 15px;
 }
 .game-image-bloc.alttp {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
 }
 .game-image-bloc.aladdin {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/games/snes/aladdin-cover.jpg);
 }
 .game-image-bloc.altered-beast {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/games/sega-genesis/altered-beast-genesis.png);
 }
 .game-image-bloc.kirby-dreamland {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/games/snes/kirby-dl3-snes.png);
 }
 .game-image-bloc.lion-king {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/games/snes/lion-king-cover.jpg);
 }
 .game-image-bloc.majora-mask {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/games/N64/majora-mask-cover.jpg);
 }
 .game-image-bloc.metal-slug {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/games/NeoGeo/metal-slug-e143691.jpg);
 }
 .game-image-bloc.ocarina-of-time {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/games/N64/The_Legend_of_Zelda_Ocarina_of_Time_box_art.png);
 }
 .game-image-bloc.sonic-the-hedgehog-2 {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/games/sega-genesis/Sonic2_European_Box.jpg);
 }
 .game-image-bloc.street-fighter-2 {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/games/snes/SF2_JPN_flyer.jpg);
 }
 .game-image-bloc.super-mario-64 {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/games/N64/Super_Mario_64_box_cover.jpg);
 }
 .game-image-bloc.super-mario-bros {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/games/NES/Super_Mario_Bros._box.png);
 }
 .game-image-bloc.virtual-tennis {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/games/dreamcast/vten.jpg);
 }
 .all-tabs {
     display:flex;
@@ -258,28 +263,50 @@ main {
 	width:100%;
 	max-width:900px;
 	min-width:300px;
-	margin-left:25%;
 	position:relative;
-	height:600px;
+	height:450px;
+	margin:0 auto;
+	padding-top:50px;
 }
-.tv-img {
-	width:80%;
-	position:absolute;
-	top:50%;
-	left:50%;
-	transform:translateX(-50%) translateY(-50%);
-	z-index:0;
-}
-.tv-screen {
-	width:600px;
-	position:relative;
-	top:102px;
-	left:85px;
-	height:380px;
-}
-.tv-screen iframe {
-	width:80%;
+.tv-video iframe {
+	width:100%;
 	height:100%;
 }
 
 
+
+@media all and (max-width:920px) and (orientation:portrait) {
+	.game-image-bloc {
+		width:100%;
+	}
+	.game-image-value-description .game-argus {
+		left:20px;
+		top:initial;
+	}
+	.game-image-value-description {
+		position:initial;
+		height:auto;
+	}
+	.game-image-bloc {
+		height:200px;
+	}
+	.game-image-value-description .description-bloc {
+		position:initial;
+		max-width:300px;
+		width:100%;
+		padding-top:200px;
+	}
+	.tab {
+		width:33.33%;
+	}
+	.tab-content-container {
+		border-radius:0 0 15px 15px;
+		max-width:100vw;
+	}
+	.tv-video {
+		margin-left:0%;
+	}
+	.tv-img {
+		width:100%;
+	}
+}
