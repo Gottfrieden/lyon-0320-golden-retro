@@ -28,7 +28,43 @@ main {
 
 }
 #alttp-banner {
-	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(Images/Jeux/banner/alttp-banner.png);
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+}
+#aladdin-banner {
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+}
+#altered-beast-banner {
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+}
+#kirby-dreamland-banner {
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+}
+#lion-king-banner {
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+}
+#majora-mask-banner {
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+}
+#metal-slug-banner {
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+}
+#ocarina-of-time-banner {
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+}
+#sonic-the-hedgehog-2-banner {
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+}
+#stree-fighter-2-banner {
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+}
+#super-mario-64-banner {
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+}
+#super-mario-bros-banner {
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
+}
+#virtual-tennis-banner {
+	background-image: linear-gradient(to bottom, black, rgba(0,0,0,0)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Jeux/banner/alttp-banner.png);
 }
 .product-game-title {
 	font-size:16px;
@@ -84,6 +120,12 @@ main {
 	background-color:#52ae32;
 }
 .negative-cotation {
+	background-color:#bf1920;
+}
+.neutral-cotation {
+	background-color:#4B4B4B;
+}
+.negative-cotation {
 	background-color:red;
 }
 .game-image-value-description .description-bloc {
@@ -107,7 +149,43 @@ main {
 	background-repeat:no-repeat;
 }
 .game-image-bloc.alttp {
-	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(Images/games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+}
+.game-image-bloc.aladdin {
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+}
+.game-image-bloc.altered-beast {
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+}
+.game-image-bloc.kirby-dreamland {
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+}
+.game-image-bloc.lion-king {
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+}
+.game-image-bloc.majora-mask {
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+}
+.game-image-bloc.metal-slug {
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+}
+.game-image-bloc.ocarina-of-time {
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+}
+.game-image-bloc.sonic-the-hedgehog-2 {
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+}
+.game-image-bloc.street-fighter-2 {
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+}
+.game-image-bloc.super-mario-64 {
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+}
+.game-image-bloc.super-mario-bros {
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
+}
+.game-image-bloc.virtual-tennis {
+	background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(file:///Users/geoffroy.crabieres/retroinvaders-fork/lyon-0320-golden-retro/Images/Games/snes/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg);
 }
 .all-tabs {
     display:flex;
