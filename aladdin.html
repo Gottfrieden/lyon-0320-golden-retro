@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Retro Invader</title>
+    <title>Disney Aladdin - Retro Invaders</title>
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Autres/favicon.png" />
     <meta lang="en">
     <meta name="title" content="Retro Invaders">
@@ -25,7 +25,7 @@
 
     <div id="nav-mobile-container" class="nav-mobile-full no-content">
 
-      <div class="close-menu-mobile no-content">
+      <div id="burger-menu-close" class="close-menu-mobile no-content" onclick="burgerMenu()">
         <span class="bar"></span>
         <span class="bar"></span>
       </div>
@@ -50,7 +50,7 @@
       </section>
 
       <section class="menu_burger_container">
-        <article id="burger-menu-click" class="menu_burger">
+        <article id="burger-menu-open" class="menu_burger" onclick="burgerMenu()">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
@@ -75,13 +75,13 @@
 
     <main>
       <section class="game-banner" id="aladdin-banner">
-        <h1>Disney's Aladdin</h1>
+        <h1>Disney Aladdin</h1>
       </section>
 
       <h2 class="product-game-title">
         <a href="index.html" title="Home">Home/</a>
         <a href="super-nintendo.html" title="Sega-Genesis">Nintendo SNES/</a>
-        <span>Disney's Aladdin</span>
+        <span>Disney Aladdin</span>
       </h2>
 
       <section class="product-game-information">    
@@ -133,16 +133,45 @@
       </section>
             
       <section class="game-video">
-        <h2>Watch a let's play!</h2>
+        <div class="heading-with-background">
+          <h2>Watch a let's play!</h2>
+        </div>
         <div class="tv-video">
           <iframe class="product-video" src="https://www.youtube.com/embed/_inY8qT5UT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section> 
 
       <section class="same-platform-games">
-        <h2>Similar Games</h2>
-        
+        <div class="heading-with-background">
+          <h2>Similar Games</h2>
+        </div>     
+
+        <div class="similar-games-bloc-container">
+          <a href="lion-king.html">
+            <div class="bloc lion-king-container">
+                <span class="game-bloc-platform">Super NES</span>
+                <span class="game-bloc-type">Platformer</span>
+                <h3>Disney Lion's King</h3>
+            </div>
+          </a>
+          <a href="kirby-dreamland.html">
+            <div class="bloc kirby-dreamland-container">
+                <span class="game-bloc-platform">Super NES</span>
+                <span class="game-bloc-type">Platformer</span>
+                <h3>Kirby's Dreamland</h3>
+            </div>
+          </a>
+          <a href="super-mario-bros.html">
+            <div class="bloc super-mario-bros-2-container">
+                <span class="game-bloc-platform">NES</span>
+                <span class="game-bloc-type">Platformer</span>
+                <h3>Super Mario Bros</h3>
+            </div>
+          </a>
+        </div>
+
       </section>
+      
     </main>
 
     <footer>

@@ -252,7 +252,6 @@ main {
 
 }
 .game-video {
-	background-color:#52ae32;
 	font-family:Gilroy;
 	color:white;
 	text-align:center;
@@ -271,8 +270,159 @@ main {
 	width:100%;
 	height:100%;
 }
+.heading-with-background {
+	width: 100%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #52ae32;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    color:white;
+    font-family:Gilroy;
+}
+.similar-games-bloc-container {
+	display:flex;
+	justify-content:center;
+	padding: 50px 0 50px 0;
+	width: 100%;
+    max-width: 900px;
+    margin:0 auto;
+}
+.similar-games-bloc-container a {
+	display:contents;
+}
+.bloc {
+    height: 200px;
+	width: 30%;
+    background-color: lightgrey;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 6px lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    flex-direction:column;
+    transition:all 0.2s ease-in-out;
+}
+.bloc:hover {
+    transform: scale(1.03);
+}
+.bloc span.game-bloc-platform {
+    position: absolute;
+    top:0;
+    left:30px;
+    background-color: #52ae32;
+    color: white;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 2px 5px grey;
+}
+.bloc span.game-bloc-type {
+    position: absolute;
+    top:0;
+    right:30px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 2px 5px grey;
+}
+.bloc-container {
+    width:calc(100vw - 250px);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.bloc.super-mario-bros-2-container {
+    background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/dev/Images/Jeux/supermariobros.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.sonic-the-hedgehog-2-container {
+    background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/sonic-the-hedgehog-2-banner.jpg);
+    background-position:center;
+    background-size:cover;
 
+}
+.bloc.pac-man-container {
+    background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/WildCodeSchool/lyon-0320-golden-retro/geoffroy/Images/Jeux/pacman-149704_1280.png);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.street-fighter-container {
+    background-image:linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107, 107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/street-fighter-2-banner.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.tloz-alttp-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/alttp-banner.png);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.tloz-mm-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/majora-mask-banner.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.tloz-oot-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/ocarina-of-time-banner.png);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.aladdin-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/aladdin-banner.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.altered-beast-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/altered-beast-banner.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.kirby-dreamland-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/kirby-dreamland-banner.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.lion-king-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/lion-king-banner.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.metal-slug-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/metal-slug-banner.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.super-mario-64-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/super-mario-64-banner.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.bloc.virtual-tennis-container {
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgba(107, 107,107, 0.5)), url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/virtual-tennis-banner.jpg);
+    background-position:center;
+    background-size:cover;
+}
 
+.bloc h3{
+    font-size: 24px;
+    font-family:Gilroy;
+}
+
+.bloc span{
+    font-size: 12px;
+    font-family: Gilroy, Montserrat;
+}
 
 @media all and (max-width:920px) and (orientation:portrait) {
 	.game-image-bloc {

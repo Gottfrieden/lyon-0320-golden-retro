@@ -15,12 +15,14 @@
     <link rel="stylesheet" href="css/header_style.css" />
     <link rel="stylesheet" type="text/css" href="css/footer_style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/burger-menu.js"></script>
+    <script src="js/shadow-on-scroll.js"></script>
     <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
     <link rel='stylesheet' id='thb-self-hosted-1-css' href="fonts/gilroy/gilroy.css">
 </head>
 <body>
         <div id="nav-mobile-container" class="nav-mobile-full no-content">
-                <div class="close-menu-mobile no-content">
+                <div id="burger-menu-close" class="close-menu-mobile no-content" onclick="burgerMenu()">
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </div>
@@ -44,7 +46,7 @@
             </section>
 
             <section class="menu_burger_container">
-                <article id="burger-menu-click" class="menu_burger">
+                <article id="burger-menu-open" class="menu_burger" onclick="burgerMenu()">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -71,26 +73,34 @@
 
         <section class="nav-and-bloc-container">
 
+            <div class="heading-with-background">
+                <h2>Select your platform</h2>
+            </div>
 
             <nav class="nav-platforms">
-                <h2>Select your platform</h2>
+                    <div class="nav-platforms-links-container">
 
-                <div class="nav-platforms-links-container">
+                        <h2><a href="plateformes.html">All</a></h2>
+                        <h2><a href="genesis.html">Genesis</a></h2>
+                        <h2><a href="nes-classic.html">NES Classic</a></h2>
+                        <h2><a href="dreamcast.html">Dreamcast</a></h2>
+                        <h2><a href="nintendo-64.html">Nintendo 64</a></h2>
+                        <h2><a href="arcade.html">Arcade</a></h2>
+                        <h2><a href="super-nintendo.html">Super Nintendo</a></h2>
+                    </div>
 
-                    <h2><a href="genesis.html">Genesis</a></h2>
-                    <h2><a href="nes-classic.html">NES Classic</a></h2>
-                    <h2><a href="dreamcast.html">Dreamcast</a></h2>
-                    <h2><a href="nintendo-64.html">Nintendo 64</a></h2>
-                    <h2><a href="arcade.html">Arcade</a></h2>
-                    <h2><a href="super-nintendo.html">Super Nintendo</a></h2>
-                </div>
-
-            </nav>
+                </nav>
 
             <section>
 
                 <div class="bloc-container">
-                        <div class="bloc virtual-tennis-container"><span>Dreamcast</span><h3>Virtual Tennis</h3><a href="virtual-tennis.html" class="button button-on-hover">See More</a></div>
+                        <a href="virtual-tennis.html">
+                            <div class="bloc virtual-tennis-container">
+                                <span class="game-bloc-platform">Dreamcast</span>
+                                <span class="game-bloc-type">Sport</span>
+                                <h3>Virtual Tennis</h3>
+                            </div>
+                        </a>
                 </div>
 
             </div>
