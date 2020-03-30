@@ -197,7 +197,7 @@ main {
 .all-tabs button:nth-child(1) {
 	border-top-left-radius:15px;
 }
-.all-tabs button:nth-child(3) {
+.all-tabs button:nth-child(4) {
 	border-top-right-radius:15px;
 }
 .tab-container {
@@ -423,6 +423,86 @@ main {
     font-size: 12px;
     font-family: Gilroy, Montserrat;
 }
+
+/* MEDIA SLIDER TAB */
+
+.media-slider-container {
+	width:calc(100% - 20px);
+	height:400px;
+	background-color:#efefef;
+	margin:10px;
+	position:relative;
+}
+#media-active-image {
+	width:100%;
+	height:300px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.media-thumbnail-container {
+	display:flex;
+	justify-content:center;
+	position:absolute;
+	left:0;
+	top:300px;
+	height:100px;
+	width:100%;
+}
+.media-image-thumbnail {
+	width:calc(20% - 2px);
+	height:100px;
+	border:1px solid white;
+	cursor:pointer;
+	filter:grayscale(1);
+	transition:all 0.2s ease-in-out;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.media-image-thumbnail.active, .media-image-thumbnail:hover {
+	filter:grayscale(0);
+}
+.media-image-thumbnail.active {
+	position:relative;
+}
+.media-image-thumbnail.active::before {
+	position:absolute;
+	top:-8px;
+	content:'';
+	width:100%;
+	height:8px;
+	background-color:#52ae32;
+    border-radius: 15px 15px 0 0;
+}
+.media-image-thumbnail.active::after {
+	position:absolute;
+	top:-13px;
+	height:10px;
+	width:10px;
+	left:50%;
+	transform:translateX(-50%) rotate(45deg);
+	content:'';
+	background-color:#52ae32;
+}
+
+.majora-mask-1 {
+	background-image:url(https://i.ytimg.com/vi/7FaOqn8ypJ4/maxresdefault.jpg);
+}
+.majora-mask-2 {
+	background-image:url(https://www.gamecrate.com/sites/default/files/i_18447.jpg);
+}
+.majora-mask-3 {
+	background-image:url(https://i.ytimg.com/vi/LMZGpnVzpU0/maxresdefault.jpg);
+}
+.majora-mask-4 {
+	background-image:url(https://gamespot1.cbsistatic.com/uploads/scale_landscape/536/5360430/2811074-2727865-mm3ds.jpg);
+}
+.majora-mask-5 {
+	background-image:url(https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/mtn16-GKR94AWQ9CP-Full-Image_GalleryBackground-en-US-1571640650675._RI_.jpg);
+}
+
+
 
 @media all and (max-width:920px) and (orientation:portrait) {
 	.game-image-bloc {

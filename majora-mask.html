@@ -17,6 +17,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/tab.js"></script>
     <script src="js/burger-menu.js"></script>
+    <script src="js/product-slider.js"></script>
     <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
     <link rel='stylesheet' id='thb-self-hosted-1-css' href="fonts/gilroy/gilroy.css">
   </head>
@@ -96,12 +97,26 @@
 
         <div class="tab-container">
           <div class="all-tabs">
-            <button onclick="showTab(event, 'buy-tab-content')" id="buy-tab" class="tab active">Buy it</button>
+            <button onclick="showTab(event, 'media-tab-content')" id="media-tab" class="tab active">Media</button>
+            <button onclick="showTab(event, 'buy-tab-content')" id="buy-tab" class="tab">Buy it</button>
             <button onclick="showTab(event, 'value-tab-content')" id="value-tab" class="tab">Value</button>
             <button onclick="showTab(event, 'info-tab-content')" id="info-tab" class="tab">More Info</button>
           </div>
 
-          <div id="buy-tab-content" class="tab-content-container visible">
+          <div id="media-tab-content" class="tab-content-container visible">
+            <div class="media-slider-container">
+              <div id="media-active-image"></div>
+              <div class="media-thumbnail-container">
+                <div onclick="changeActiveTab()" class="media-image-thumbnail thumbnail-image-1 majora-mask-1 active" value="https://i.ytimg.com/vi/7FaOqn8ypJ4/maxresdefault.jpg"></div>
+                <div onclick="changeActiveTab()" class="media-image-thumbnail thumbnail-image-2 majora-mask-2" value="https://www.gamecrate.com/sites/default/files/i_18447.jpg"></div>
+                <div onclick="changeActiveTab()" class="media-image-thumbnail thumbnail-image-3 majora-mask-3" value="https://i.ytimg.com/vi/LMZGpnVzpU0/maxresdefault.jpg"></div>
+                <div onclick="changeActiveTab()" class="media-image-thumbnail thumbnail-image-4 majora-mask-4" value="https://gamespot1.cbsistatic.com/uploads/scale_landscape/536/5360430/2811074-2727865-mm3ds.jpg"></div>
+                <div onclick="showImage()" class="media-image-thumbnail thumbnail-image-5 majora-mask-5" value="https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/mtn16-GKR94AWQ9CP-Full-Image_GalleryBackground-en-US-1571640650675._RI_.jpg"></div>
+              </div>
+            </div>
+          </div>
+
+          <div id="buy-tab-content" class="tab-content-container">
             <span>Loose</span>
             <a href="https://www.ebay.fr/itm/The-legend-of-ZELDA-MAJORAS-MASK-jeu-nintendo-64-en-tres-bon-etat/264653839220?hash=item3d9e991b74:g:H~YAAOSwq~9eXSL5" target="_blank">
               <p>The legend of ZELDA MAJORA'S MASK , jeu nintendo 64 en très bon état</p>
