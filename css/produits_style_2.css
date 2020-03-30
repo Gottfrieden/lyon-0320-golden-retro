@@ -413,6 +413,52 @@ main {
     background-position:center;
     background-size:cover;
 }
+.game-banner-name {
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:contain;
+	width:200px;
+	height:150px;
+}
+.game-banner-name.aladdin {
+	background-image:url(https://raw.github.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/logos/aladdin-white.png);
+}
+.game-banner-name.majora-mask {
+	background-image:url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/logos/majora-mask-logo.png);
+}
+.game-banner-name.a-link-to-the-past {
+	background-image:url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/logos/a-link-to-the-past-logo.png);
+}
+.game-banner-name.altered-beast {
+	background-image:url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/logos/altered-beast-logo.png);
+}
+.game-banner-name.kirby-dreamland-2 {
+	background-image:url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/logos/kirby-dreamland-logo.png);
+}
+.game-banner-name.lion-king {
+	background-image:url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/logos/lion-king-logo-white.png);
+}
+.game-banner-name.metal-slug {
+	background-image:url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/logos/metal-slug-logo.gif);
+}
+.game-banner-name.ocarina-of-time {
+	background-image:url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/logos/ocarina-of-time-logo.png);
+}
+.game-banner-name.sonic-the-hedgehog-2 {
+	background-image:url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/sonic-logo.png);
+}
+.game-banner-name.street-fighter-2 {
+	background-image:url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/Street_Fighter_old_logo.png);
+}
+.game-banner-name.super-mario-64 {
+	background-image:url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/logos/super-mario-64.png);
+}
+.game-banner-name.super-mario-bros {
+	background-image:url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/logos/super-mario-bros.gif);
+}
+.game-banner-name.virtua-tennis {
+	background-image:url(https://raw.githubusercontent.com/Gottfrieden/lyon-0320-golden-retro/master/Images/Jeux/banner/logos/virtua-tennis-logo.png);
+}
 
 .bloc h3{
     font-size: 24px;
